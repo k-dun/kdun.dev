@@ -8,7 +8,7 @@ export default function Hero() {
   return (
     <>
       <section className="bg-[#FCFAFF] h-screen w-full flex px-5">
-        <div className="flex flex-col md:flex-row-reverse">
+        <div className="md:hidden flex flex-col">
           <div className="flex justify-center">
             <Image src="/hero-dev.png" className="pt-8" width={750} height={750} alt="Konrad Dunski - Dev For Hire" />
           </div>
