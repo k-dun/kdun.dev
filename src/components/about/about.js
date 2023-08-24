@@ -14,8 +14,8 @@ export default function About() {
             <h3 className="font-primary text-3xl text-[#202020] font-semibold mb-4 pl-4"><span className="text-[#FF8080]">01</span> About</h3>
             <p className="text-xl text-[#202020] px-6">
               I always pursue my curiosity. Consuming multiple tech related content and podcasts eventually led me to leave retail and join the Makers Academy software development bootcamp. I am now looking for my first job in tech.<br /><br />
-              I want to be proud of where I work. If you're a UK startup with a proven product-market fit and geared towards creating positive impact, I'd be excited to give it my 110% to help you grow and succeed.<br /><br />
-              <span className="font-semibold">I'm open to all roles, be that engineering, product/project management or operations.</span><br /><br />
+              I want to be proud of where I work. If you`&apos;`re a UK startup with a proven product-market fit and geared towards creating positive impact, I`&apos;`d be excited to give it my 110% to help you grow and succeed.<br /><br />
+              <span className="font-semibold">I`&apos;`m open to all roles, be that engineering, product/project management or operations.</span><br /><br />
               Check out skills section below <a href="/#skills"><span className="text-xl text-[#FF8080]">⇣</span></a>
             </p>
           </div>
@@ -35,8 +35,8 @@ export default function About() {
           <div className="lg:w-[800px] lg:flex lg:justify-start lg:items-start">
             <p className="lg:text-3xl lg:text-[#202020] lg:px-6">
               I always pursue my curiosity. Consuming multiple tech related content and podcasts eventually led me to leave retail and join the Makers Academy software development bootcamp. I am now looking for my first job in tech.<br /><br />
-              I want to be proud of where I work. If you're a UK startup with a proven product-market fit and geared towards creating positive impact, I'd be excited to give it my 110% to help you grow and succeed.<br /><br />
-              <span className="lg:font-semibold">I'm open to all roles, be that software engineering, product/project management or operations.</span><br /><br />
+              I want to be proud of where I work. If you`&apos;`re a UK startup with a proven product-market fit and geared towards creating positive impact, I`&apos;`d be excited to give it my 110% to help you grow and succeed.<br /><br />
+              <span className="lg:font-semibold">I`&apos;`m open to all roles, be that software engineering, product/project management or operations.</span><br /><br />
               Check out skills section below <a href="/#skills"><span className="lg:text-3xl lg:text-[#FF8080]">⇣</span></a>
             </p>
           </div>
