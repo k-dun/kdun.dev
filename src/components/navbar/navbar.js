@@ -11,30 +11,13 @@ export default function Navbar() {
     setMenuOpen(!menuOpen);
   };
 
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 0) {
-        setScrolling(true);
-      } else {
-        setScrolling(false);
-      }
-    };
-
-    window.addEventListener('scroll', handleScroll);
-
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-
-  }, []);
-
   return (
     <>
       <style jsx>
         {`.custom-max-width { max-width: 1600px }`}
       </style>
 
-      <div className={`navbar fixed top-0 flex flex-row w-[100vw] lg:custom-max-width h-24 bg-[#FCFAFF] md:h-36 ${ scrolling ? 'bg-opacity-90' : 'bg-opacity-100'} transition duration-300 ease-in-out`}>
+      <div className="navbar fixed top-0 flex flex-row w-[100vw] lg:custom-max-width h-24 bg-[#FCFAFF] md:h-36">
         <div className="flex w-1/3 justify-start items-center">
           <a href="/">
             <Image src="/kdun-logo.svg" alt="Konrad Dunski Logo" className="pl-2 w-24 h-12 md:w-32 md:h-16 md:ml-6" width={200} height={100} />
