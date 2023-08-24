@@ -6,3 +6,7 @@
   font-family: Boldoa;
   src: url("/fonts/Boldoa.ttf") format("truetype");
 }
+
+* {
+  background-color: #FCFAFF;
+}
