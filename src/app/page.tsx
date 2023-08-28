@@ -9,7 +9,7 @@ export default function Home() {
   return (
    <>
     <style jsx>{`.custom-max-width {
-      max-width: 1600px;
+      max-width: 1400px;
       margin: 0 auto; }`}
     </style>
 

@@ -14,7 +14,7 @@ export default function Navbar() {
   return (
     <>
       <style jsx>
-        {`.custom-max-width { max-width: 1600px }`}
+        {`.custom-max-width { max-width: 1400px }`}
       </style>
 
       <div className="navbar fixed top-0 flex flex-row w-[100vw] lg:custom-max-width h-24 bg-[#FCFAFF] md:h-36">
@@ -39,7 +39,7 @@ export default function Navbar() {
                   <label tabIndex={0} className="flex-1 btn btn-lg btn-square btn-ghost mr-2 md:mr-6">
                     <Image src="/nav-burger-active.svg" className="md:w-12 md:h-12" width={24} height={24} onClick={() => toggleMenu()} />
                   </label>
-                  <ul tabIndex={0} className="dropdown-content z-[1] shadow bg-[#FCFAFF] border-2 border-solid border-[#FF8080] rounded-box w-[100vw] lg:w-[99vw] h-[85vh] text-center font-primary font-semibold text-5xl text-[#202020]">
+                  <ul tabIndex={0} className="dropdown-content z-[1] bg-[#FCFAFF] rounded-box w-[100vw] lg:w-[100vw] h-[85vh] text-center font-primary font-semibold text-5xl text-[#202020]">
                     <li className="mt-[30vh]"><a href="/#about" onClick={() => toggleMenu()}><span className="text-[#FF8080]">01</span> ABOUT</a></li>
                     <li className="mt-8 lg:mt-12"><a href="/#skills" onClick={() => toggleMenu()}><span className="text-[#FF8080]">02</span> SKILLS</a></li>
                     <li className="mt-8 lg:mt-12"><a href="/#projects" onClick={() => toggleMenu()}><span className="text-[#FF8080]">03</span> PROJECTS</a></li>

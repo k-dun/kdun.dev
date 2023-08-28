@@ -42,12 +42,12 @@ export default function Hero() {
 
       {/* LG+ SCREENS */}
 
-      <style jsx>{`.custom-max-width { max-width: 1800px; }`}
+      <style jsx>{`.custom-max-width { max-width: 1400px; }`}
       </style>
 
       <section className="hidden lg:bg-[#FCFAFF] lg:h-[90vh] lg:flex lg:custom-max-width lg:justify-center lg:pt-36">
         <div className="lg:flex lg:flex-row lg:h-[60vh] lg:items-center lg:pt-36">
-          <div className="lg:w-[800px] lg:flex lg:flex-col lg:justify-start lg:items-center lg:pl-48">
+          <div className="lg:w-[700px] lg:flex lg:flex-col lg:justify-start lg:items-center lg:pl-48">
             <h1 className="lg:text-5xl lg:w-full lg:font-semibold lg:text-[#202020] lg:font-primary">FRONTEND DEVELOPER <span className="lg:text-[#FF8080]">/</span> DESIGNER</h1>
             <h2 className="lg:text-2xl lg:font-medium lg:text-[#353535] lg:mt-16">My name is Konrad Dunski and I am interested in UI/UX design, startups, writing and all things frontend.</h2>
             <div className="lg:flex lg:flex-row lg:w-full lg:mt-10 lg:justify-start">
@@ -67,7 +67,7 @@ export default function Hero() {
               </div>
             </div>
           </div>
-          <div className="lg:w-[800px]">
+          <div className="lg:w-[700px]">
             <div className="lg:flex lg:justify-center">
               <Image src="/hero-image.png" className="lg:pt-8" width={700} height={700} alt="Konrad Dunski - Dev For Hire" />
             </div>
